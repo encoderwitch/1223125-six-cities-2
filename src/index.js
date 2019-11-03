@@ -11,7 +11,6 @@ const init = () => {
   ];
 
   ReactDOM.render(<App list={list}/>, document.getElementById(`root`));
- 
 };
 
 init();

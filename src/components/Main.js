@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import PlaceCard from './PlaceCard';
-//import './Main.css';
-
+import './Main.css';
 
 const Main = ({list}) => {
   const PlaceCardList = list.map((item) => {

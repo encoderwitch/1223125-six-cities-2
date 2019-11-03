@@ -10,5 +10,4 @@ App.propTypes = {
   list: PropTypes.arrayOf(PropTypes.string)
 };
 
-
 export default App;
