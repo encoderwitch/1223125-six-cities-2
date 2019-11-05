@@ -19,8 +19,6 @@ it(`renders correctly`, () => {
   const startClickOnTitle = openPlace.find(`[className="place-card__name"]`).simulate(`click`);
   expect(startClickOnTitle).not.toBe(null);
   expect(mockhandleClick).toHaveBeenCalledTimes(1);
-  
-
   // const startClickOnTitle1 = openPlace.find(`.place-card__name`).simulate(`click`); - works the same as openPlace.find(`[className="place-card__name"]`).simulate(`click`);
   // expect(startClickOnTitle1).not.toBe(null);
 });
