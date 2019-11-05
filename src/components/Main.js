@@ -1,11 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import PlaceCard from './PlaceCard';
-import './Main.css';
+//  import './Main.css';
 
-const Main = ({list}) => {
-  const PlaceCardList = list.map((item) => {
-    return <PlaceCard title={item} key={item} />;
+const Main = (props) => {
+  const HandleClick = () => {
+    // alert(`I clicked!`);
+  };
+
+  let newlist = [];
+  newlist = props.list;
+  const PlaceCardList = newlist.map((item) => {
+    return <PlaceCard title={item} key={item} handleClick={HandleClick}/>;
   });
 
   return (
