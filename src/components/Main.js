@@ -5,7 +5,7 @@ import PlaceCard from './PlaceCard';
 
 const Main = (props) => {
   const HandleClick = () => {
-    // alert(`I clicked!`);
+  //  alert(`I clicked!`);
   };
 
   let newlist = [];
